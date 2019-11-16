@@ -8,8 +8,8 @@ def allprimes(x):
                     pass
                 else:
                     b = +1
-                if b == len(range(2, l)):
-                    a.append(l)
+                    if b == len(range(2, l)):
+                        a.append(l)
     else:
         print("1den büyük bir sayı giriniz.")
     return a
