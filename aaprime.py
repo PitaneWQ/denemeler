@@ -1,9 +1,9 @@
 def allprimes(x):
     a = [2]
-    b = 0
     if x > 1:
         for l in range(2, x):
-             for i in range(2, l):
+            b = 0
+            for i in range(2, l):
                 if l % i == 0:
                     pass
                 else:
