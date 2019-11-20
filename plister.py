@@ -1,4 +1,4 @@
-def primlisterr(x):
+def primlister(x):
     primelist = []
     for i in range(3, x, 2):
         count = 0
@@ -13,4 +13,4 @@ def primlisterr(x):
             continue
     return primelist
 if __name__ == "__main__":
-    print(primlisterr(10000))
+    print(primlister(10000))
