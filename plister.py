@@ -1,8 +1,8 @@
 def primlisterr(x):
     primelist = []
-    for i in range(2, x):
+    for i in range(3, x, 2):
         count = 0
-        for l in range(2, i):
+        for l in range(3, i, 2):
             if i % l == 0:
                 count += 1
 
