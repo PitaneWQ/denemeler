@@ -1,14 +1,14 @@
 harf = input("Bir harf giriniz: ")
-sayi = 2*(int(input("Sayı giriniz: ")))+1
+sayi = int(input("Sayı giriniz: "))
 hnum = 1
-nnum = int((sayi-1)/2)
+nnum = sayi
 
-for l in range(int((sayi-1)/2)):
+for l in range(sayi):
     print("."*nnum+harf*hnum+"."*nnum)
     hnum +=2
     nnum -=1
 
-for l in range(int((sayi-1)/2)):
+for l in range(sayi):
     print("."*nnum+harf*hnum+"."*nnum)
     hnum -=2
     nnum +=1
